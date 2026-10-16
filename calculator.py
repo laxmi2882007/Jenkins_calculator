@@ -1,4 +1,5 @@
-a=int(input("Enter a"))
-b=int(input("Enter b"))
-print("Addition",a+b)
-print("Substraction",a-b)
+import sys
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+print("Addition:", a + b)
+print("Substraction:", a - b)
